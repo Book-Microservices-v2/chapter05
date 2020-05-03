@@ -92,12 +92,12 @@ class ChallengeComponent extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="display-column">
                 <div>
                     <h3>Your new challenge is</h3>
-                    <h1>
+                    <div className="challenge">
                         {this.state.a} x {this.state.b}
-                    </h1>
+                    </div>
                 </div>
                 <form onSubmit={this.handleSubmitResult}>
                     <label>

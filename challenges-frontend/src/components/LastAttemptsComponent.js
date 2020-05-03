@@ -7,9 +7,9 @@ class LastAttemptsComponent extends React.Component {
             <table>
                 <thead>
                 <tr>
-                    <td>Challenge</td>
-                    <td>Your guess</td>
-                    <td>Correct</td>
+                    <th>Challenge</th>
+                    <th>Your guess</th>
+                    <th>Correct</th>
                 </tr>
                 </thead>
                 <tbody>
