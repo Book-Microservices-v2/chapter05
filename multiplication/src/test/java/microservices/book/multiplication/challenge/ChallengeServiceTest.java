@@ -34,6 +34,9 @@ public class ChallengeServiceTest {
                 userRepository,
                 attemptRepository
         );
+        // Keep in mind that we needed to move the
+        // given(attemptRepository)... to the test cases
+        // that use it to prevent the unused stubs errors.
     }
 
     @Test
